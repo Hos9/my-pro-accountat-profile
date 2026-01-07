@@ -251,12 +251,13 @@ footer {
   max-height: 780px;
   background-color: #fff8f3;
   margin: 0px auto;
+  margin-top: 113px;
 }
 
-#footer .footer-container {
+footer .footer-container {
   width: 71%;
   max-width: 1140px;
-  max-height: 520px;
+  /* max-height: 520px; */
   margin: 0px auto;
   padding-top: 130px;
   display: flex;
@@ -272,7 +273,7 @@ footer {
 }
 
 .connect p {
-  max-width: 562px;
+  width: 562px;
   font-size: 16px;
   line-height: 28px;
   color: #181818;
@@ -281,4 +282,14 @@ footer {
 
 .connect .icons img {
   margin-right: 24px;
+}
+
+.Message form input[Type="text"],
+.Message form textarea {
+  width: 461px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  padding: 18px 30px;
+  border: none;
+  border-radius: 5px;
 }
