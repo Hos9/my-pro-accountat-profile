@@ -12,6 +12,31 @@
   margin: 0px auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.section-heading {
+  width: 827px;
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: 0px auto;
+}
+
+.section-heading h2 {
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #181818;
+  /* font-weight: bold; */
+}
+
+.section-heading p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: #757575;
+}
+
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -19,7 +44,8 @@
 
 header {
   background-color: #fff8f3;
-  background: url(../images/developer.png), url(../images/header_bg.png), #fff8f3;
+  background: url(../images/developer.png), url(../images/header_bg.png),
+    #fff8f3;
   background-position: top left, bottom right;
   background-repeat: no-repeat;
   padding-top: 50px;
@@ -91,7 +117,7 @@ nav .menu a {
   margin-top: 5px;
 }
 
-#banner .banner-content{
+#banner .banner-content {
   width: 585px;
 }
 
@@ -108,8 +134,149 @@ nav .menu a {
   margin-bottom: 30px;
 }
 
-#banner .banner-image img{
-    max-width: 500px;
-    /* margin-right: 80px; */
-    vertical-align: middle;
+#banner .banner-image img {
+  max-width: 500px;
+  /* margin-right: 80px; */
+  vertical-align: middle;
+}
+
+#about,
+#skills,
+#resume {
+  padding-top: 130px;
+}
+
+#about .about-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 131px 156px;
+}
+
+#about .about-container .about-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info .info-cards p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 0px;
+}
+
+.about-info .info-cards h4 {
+  font-size: 20px;
+}
+
+#skills .skills-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+#skills .skills-container p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.skills-item {
+  display: flex;
+  gap: 24px;
+  max-height: 377px;
+  border-radius: 5px;
+}
+
+.skills-item .items {
+  box-shadow: 0px 6px 50px #00000011;
+  padding: 30px;
+}
+
+.skills-item .items img {
+  margin-bottom: 30px;
+  max-width: 44px;
+}
+
+.skills-item .items h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#skills .skills-container .skills-item .items p {
+  font-size: 16px;
+}
+
+#resume .resume-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0px auto;
+  display: flex;
+  gap: 71px;
+}
+
+.section-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #474747;
+  margin-top: 113px;
+}
+
+.edu-box h3,
+.exp-box h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #474747;
+}
+
+.edu-box .card-info,
+.exp-box .card-info {
+  font-size: 20px;
+  columns: #757575;
+  margin-bottom: 20px;
+}
+
+.edu-box .card-text,
+.exp-box .card-text {
+  font-size: 16px;
+  columns: #757575;
+  margin-bottom: 20px;
+}
+
+#footer {
+  margin-top: 113px;
+  max-width: 1600px;
+  max-height: 780px;
+  background-color: #fff8f3;
+  margin: 0px auto;
+}
+
+#footer .footer-container {
+  width: 71%;
+  max-width: 1140px;
+  max-height: 520px;
+  margin: 0px auto;
+  padding-top: 130px;
+  display: flex;
+  gap: 117px;
+}
+
+.connect h2,
+.Message h2 {
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.connect p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #181818;
+  margin-bottom: 30px;
+}
+
+.connect .icons img {
+  margin-right: 24px;
 }
